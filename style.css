@@ -1,0 +1,228 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    padding:30px;
+
+}
+.container{
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns:1fr 3fr ;
+    grid-template-rows: 1fr;
+}
+.left-section{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr),300fr ;
+    
+}
+.left-section .intro{
+    /* padding: 30px 10px; */
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-section .intro img{
+    width: 100px;
+    border-radius: 50%;
+}
+.left-section .intro h1{
+    margin-top: -30px;
+}
+.left-section .intro p{
+    margin-top: -20px;
+}
+
+.contact{
+    /* padding: 30px 10px; */
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact .contact-heading{
+    width: 80%;
+    padding: 10px 2px;
+    display: flex;
+    /* margin-bottom: 30px; */
+    border-bottom: 2px solid white;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.contact .phone-heading{
+    width: 80%;
+    /* margin-bottom: 15px; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.contact .fa-solid{
+    width: 15%;
+}
+.contact .info{
+    width: 60%;
+}
+.contact .mail-heading{
+    width: 80%;
+    /* margin-bottom: 15px; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.contact .address-heading{
+    width: 80%;
+    /* margin-bottom: 15px; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.education{
+    /* padding: 10px; */
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.education .education-heading{
+    width: 80%;
+    padding: 10px 2px;
+    display: flex;
+    /* margin-bottom: 30px; */
+    border-bottom: 2px solid white;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.education .degree-heading{
+    width: 80%;
+    margin-bottom: -25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.education .fa-solid{
+    width: 15%;
+}
+.education .info{
+    width: 55%;
+}
+.education .info{
+    width: 70%;
+    /* margin-bottom: 15px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.language{
+    /* padding: 10px; */
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.language .language-heading{
+    width: 80%;
+    border-bottom: 2px solid white;
+    /* margin-bottom: 15px; */
+    display: flex;
+    padding: 10px 2px;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.language .fa-solid{
+    width: 15%;
+}
+.language .info{
+    width: 70%;
+}
+.language ul{
+    width: 80%;
+    text-align: center;
+}
+.right-section{
+    width: 100%;
+    padding: 10px 30px;
+    grid-column: 2/-1;
+    display: grid;
+    grid-template-rows:200px 1fr 200px 200px;
+}
+.right-section .right-heading{
+    border-bottom: 2px solid black;
+    width: 90%;
+    margin: 10px 2px;
+    padding: 10px 2px;
+    display: flex;
+    justify-content:space-around;
+}
+.right-heading .fa-solid{
+    width: 30%;
+}
+.right-heading h1{
+    width: 80%;
+}
+.right-section .profile p{
+    margin: 30px;
+    width: 80%;
+}
+.exp-info{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.exp-info .exp-icon{
+    width: 15%;
+}
+.exp-info .exp-post{
+    width: 60%;
+    font-size: 18px;
+}
+.exp-info .exp-year{
+    width: 20%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.exp-details p{
+    margin: 30px;
+    width: 80%;
+}
+.skill-info{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.skill-left,.skill-right{
+    width: 45%;
+    height: 200px;
+    margin-top: 30px;
+}
+.skill-info ul{
+    width: 100%;
+    list-style: none;
+}
+.ref-info{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.ref-left,.ref-right{
+    width: 45%;
+    height: 200px;
+    /* margin-top: 30px; */
+}
+
+
+
